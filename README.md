@@ -1,6 +1,3 @@
-Certainly! Here’s a comprehensive README.md file for the SubQC app, formatted in Markdown for your GitHub repository:
-
-⸻
 
 📦 SubQC – AI-Powered Quality Control for the Supply Chain
 
