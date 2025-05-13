@@ -13,12 +13,15 @@ function HomepageHeader () {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className='container'>
         <Heading as='h1' className='hero__title'>
-          {siteConfig.title}
+          SubQC-AI
         </Heading>
-        <p className='hero__subtitle'>{siteConfig.tagline}</p>
+        <p className='hero__subtitle'>
+          AI-powered inspection platform for managing quality checks, products,
+          inspectors, and reports — all in one place.
+        </p>
         <div className={styles.buttons}>
-          <Link className='button button--secondary button--lg' to='/'>
-            Tutorial - 5min ⏱️
+          <Link className='button button--secondary button--lg' to='/intro'>
+            Get Started with Docs 🚀
           </Link>
         </div>
       </div>
@@ -30,8 +33,8 @@ export default function Home () {
   const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
+      title='SubQC-AI Documentation'
+      description='Learn how to use SubQC-AI to manage inspections, checklists, work orders, and reports efficiently.'
     >
       <HomepageHeader />
       <main>

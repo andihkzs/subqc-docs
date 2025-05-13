@@ -1,34 +1,44 @@
 ---
 id: add-work-order
-title: Adding a Work Order
-sidebar_label: Add Work Order
+title: Add a Work Order
 ---
 
-This page explains how to add a new work order to the system.
+# ➕ Add a Work Order
 
-## Prerequisites
-- You must be logged in with appropriate permissions
-- You need relevant project information ready
+To initiate a product inspection, you need to create a **Work Order**. SubQC-AI allows you to create either a **Standard Work Order** or an **AQL Work Order**, depending on your inspection needs.
 
-## Steps to Add a Work Order
+---
 
-1. Navigate to the Work Orders section by clicking on "Work Orders" in the main navigation
-2. Click the "+ New Work Order" button in the top-right corner
-3. Fill out the required fields:
-   - Title
-   - Description
-   - Due Date
-   - Assigned To
-4. (Optional) Add attachments by clicking "Add Attachment"
-5. Click "Save" to create the work order
+## 🛠️ Steps to Add a Work Order
 
-## Video Tutorial
-[Watch our tutorial video](https://example.com/video) for a visual walkthrough.
+1. Navigate to the **Work Order** tab in the sidebar.
+2. Choose between:
+   - 📦 **Standard Work Order**
+   - 📏 **AQL Work Order**
+3. Click **Add Work Order**.
+4. Fill in the required form fields:
 
-## Common Issues
+### 📋 Form Fields
 
-### Work Order Not Appearing
-If your work order doesn't appear after saving, check that:
-- You have the correct permissions
-- You have filled all required fields
-- The system isn't experiencing delays
+- **Order No.**
+- **Inspection Date**
+- **Expected Shipment Date**
+- **Service Request**
+- **Allow Factory to Change Date**
+- **Order Quantity** & **Unit**
+- **Product** (select from product list)
+- **Checklist** (select from checklist library)
+- **Inspector** (assign one)
+
+If you're creating an **AQL Work Order**, the form will also include:
+
+- ✅ **AQL Calculator**
+- 🚚 **Shipment Details**
+
+---
+
+## 📎 Notes
+
+- Only one inspector can be assigned to a work order.
+- Make sure the selected product and checklist are already created beforehand.
+- The "Allow Factory to Change Date" toggle enables flexibility if scheduling is uncertain.
