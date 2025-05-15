@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_documentation=self.webpackChunkmy_documentation||[]).push([[2634],{9179:(t,n,u)=>{u.r(n),u.d(n,{default:()=>o});var e=u(6347),c=u(4848);function o(){return(0,c.jsx)(e.rd,{to:"/subqc-docs/intro"})}}}]);
