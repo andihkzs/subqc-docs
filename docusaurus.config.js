@@ -16,7 +16,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://andihkzs.github.io',
-  baseUrl: '/subqc-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -35,6 +35,15 @@ const config = {
     defaultLocale: 'en',
     locales: ['en']
   },
+
+  plugins: [
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        indexBaseUrl: true
+      }
+    ]
+  ],
 
   presets: [
     [
@@ -81,16 +90,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg'
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'docs',
-            to: '/intro',
-            position: 'left',
-            label: 'Documentation'
-          }
-        ]
+        }
       },
       // footer: {
       //   style: 'dark',
