@@ -14,7 +14,7 @@ It’s included automatically in **AQL Work Orders** and is based on the samplin
 
 ## 🧠 What It Calculates
 
-- **Sample Size**: Number of items to inspect
+- **Sample Size**: Number of items to inspect here
 - **Accept/Reject Limits**: Number of defects allowed
 - **Inspection Level**: General or special levels
 
